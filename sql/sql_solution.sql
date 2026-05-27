@@ -4,7 +4,6 @@ DECLARE
     cost_row2 RECORD;
     formula VARCHAR;
     cost_sum NUMERIC(16, 2);
---    sum_of_costs NUMERIC(16, 2);
     has_rows_for_divide boolean = TRUE;
     iteration_count INT = 0;
     step_starter_at TIMESTAMP;
