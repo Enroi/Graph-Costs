@@ -8,7 +8,6 @@ DECLARE
     calc_name VARCHAR = 'Пример распределения большого количества затрат';
     i BIGINT;
     cost_sum FLOAT;
-    max_divide_deparment_count int = 5;
     percent_for_division int;
     current_persent_for_division INT;
     percent_summed INT;
