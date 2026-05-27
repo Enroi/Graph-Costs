@@ -12,8 +12,7 @@
 WITH base AS (
     SELECT co.cost_input_id, 
         for_fix.id "for_fix_id",
-        sum(co.summ) "cost_output_sum", 
-        (SELECT sum(ci.cost_sum) FROM costs_input ci where ci.id = co.cost_input_id) "cost_input_sum"
+        sum(co.summ) "cost_output_sum"
     FROM costs_output co 
     INNER JOIN (
         SELECT co.cost_input_id, 
